@@ -1,0 +1,117 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+h1 {
+    color:blue;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-image: linear-gradient(to right, #f2f2f2, #e6e6e6);
+}
+
+tr:nth-child(odd) {
+    background-image: linear-gradient(to right, #e6e6e6, #f2f2f2);
+<<<<<<< Updated upstream
+=======
+}
+.chooseBranchBox {
+    padding: 30px;
+    background: #f3f6f9;
+}
+.showEmpButton {
+    padding: 12px 30px;
+    background: #39d196;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    transition: 0.2s;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+h5 {
+    color :#000000;
+}
+
+.createBranchClass {
+    color: #2d3e50;
+}
+.empl {
+    width:50%;
+}
+.selectBranch {
+    padding: 12px 30px;
+    background: white;
+    color: #000000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    transition: 0.2s;
+    font-weight: 600;
+    border: none;
+    border-radius : 10px;
+}
+.linkCreateEmpl {
+    padding: 8px 24px;
+    background: #39d196;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    transition: 0.2s;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    text-align:center;
+    margin-right:90%;
+}
+.linkCreateEmplBack {
+    padding: 8px 24px;
+    background: #39d196;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    transition: 0.2s;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 90%;
+>>>>>>> Stashed changes
+}
